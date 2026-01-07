@@ -1,0 +1,42 @@
+{
+  "name": "Story App",
+  "short_name": "StoryApp",
+  "description": "Aplikasi berbagi cerita seru",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#87cefa",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "40x40",
+      "type": "image/png"
+    },
+    {
+      "src": "images/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any" 
+    },
+    {
+      "src": "images/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+  {
+    "src": "images/screenshot-desktop.png",
+    "sizes": "2560x1440",
+    "type": "image/png",
+    "form_factor": "wide"
+  },
+  {
+    "src": "images/screenshot-mobile.png",
+    "sizes": "1170x2532",
+    "type": "image/png",
+    "form_factor": "narrow"
+  }
+]
+}
